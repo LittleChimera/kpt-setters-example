@@ -8,5 +8,5 @@ pipeline:
   mutators:
     - image: gcr.io/kpt-fn/apply-setters:v0.1
       configMap:
-        replicas: 5
-        image: bla
+        prometheus.setters.galadriel.io/replicas: 5
+        prometheus.setters.galadriel.io/image: bla
